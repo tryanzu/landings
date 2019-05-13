@@ -1,3 +1,71 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cover-anzu{
+	max-height: 722px;
+	padding: 30px 0px;
+	background-image: url('https://tryanzu.com/images/atoms-anzu.svg'), radial-gradient(circle farthest-corner at 79% 80%, #7a9bff, #3d5afe 68%);
+}
+.container-navbar{
+	margin: 0 auto;
+	max-width: 80%;
+	height: 62px;
+}
+.navbar-left{
+	height: 62px;
+	max-width: 50%;
+}
+.navbar-right{
+	height: 62px;
+	max-width: 50%
+}
+.anzu-logo{
+	height: 62px;
+	width:81px;
+	padding: 20px 0px;
+}
+.item-navbar-menu{
+	padding: 20px;
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px
+}
+.btn-primary{
+	padding: 10px;
+	margin: 10px 0px 0px;
+	background-image: repeating-linear-gradient(45deg, #3300d6, #8c3fff);
+	max-height: 40px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.btn-primary:hover{
+	background-image: repeating-linear-gradient(45deg, #00d6d6, #3fabff);
+}
+.atom-container{
+	min-height: 600px;
+}
+.hero-content{
+	width: 100%;
+	min-height: 600px;
+}
+.content{
+	min-height: 600px;	
+	width: 100%;
+}
+.atom-anzu{
+	width: 200px;
+	height:53.5px;
+}
+.text-bold{
+	margin: 20px 0px 10px;
+	font-size: 26px;
+}
+.hero-copy{
+	max-width: 588.7px;
+}
+.paragraph{
+  color: hsla(0, 0%, 100%, .8);
+  font-size: 20px;
+}
