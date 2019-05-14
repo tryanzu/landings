@@ -5,67 +5,73 @@
 .cover-anzu{
 	max-height: 722px;
 	padding: 30px 0px;
-	background-image: url('https://tryanzu.com/images/atoms-anzu.svg'), radial-gradient(circle farthest-corner at 79% 80%, #7a9bff, #3d5afe 68%);
+	background-image: url('./images/cover.svg'), radial-gradient(circle farthest-corner at 79% 80%, #7a9bff, #3d5afe 68%);
 }
+
 .container-navbar{
-	margin: 0 auto;
-	max-width: 80%;
+	@apply mx-auto w-4/5;	
 	height: 62px;
 }
+
 .navbar-left{
 	height: 62px;
 	max-width: 50%;
 }
+
 .navbar-right{
 	height: 62px;
 	max-width: 50%
 }
+
 .anzu-logo{
+	@apply relative flex float-left py-5;
 	height: 62px;
 	width:81px;
-	padding: 20px 0px;
 }
-.item-navbar-menu{
-	padding: 20px;
-	font-family: 'lato', sans-serif;
-	font-weight: 400;
-	font-size: 14px
+
+.item-menu{
+	@apply text-white text-left inline-block p-5 font-sans font-normal text-sm
 }
+
 .btn-primary{
+	@apply  mt-2 bg-indigo-500 text-sm font-sans font-semibold text-white rounded;
 	padding: 10px;
-	margin: 10px 0px 0px;
-	background-image: repeating-linear-gradient(45deg, #3300d6, #8c3fff);
-	max-height: 40px;
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
 }
-.btn-primary:hover{
-	background-image: repeating-linear-gradient(45deg, #00d6d6, #3fabff);
-}
+
 .atom-container{
+	@apply flex relative justify-center my-auto mx-auto;
 	min-height: 600px;
 }
+
 .hero-content{
 	width: 100%;
 	min-height: 600px;
 }
+
 .content{
+	@apply flex flex-col w-full content-center items-center justify-center my-auto mx-auto;	
 	min-height: 600px;	
-	width: 100%;
 }
+
 .atom-anzu{
 	width: 200px;
 	height:53.5px;
 }
-.text-bold{
-	margin: 20px 0px 10px;
+
+.hero-copy{
+	@apply mx-auto flex flex-col items-center w-3/5 
+}
+
+.text-hero{
+	@apply font-bold font-semibold text-white font-sans mt-5 mb-2 mx-auto w-2/5 text-center; 
 	font-size: 26px;
 }
-.hero-copy{
-	max-width: 588.7px;
-}
+
 .paragraph{
-  color: hsla(0, 0%, 100%, .8);
-  font-size: 20px;
+	@apply text-xl text-gray-300 font-sans w-2/5 flex mx-auto text-center font-sans font-normal;
+	line-height: 28px;
+}
+
+.btn-land{
+	margin-top:10px;
 }

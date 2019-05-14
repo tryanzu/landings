@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="936" height="644" viewBox="0 0 936 644">
+  <defs>
+    <linearGradient id="atoms-anzu-a" x1="88.471%" x2="50%" y1="26.106%" y2="100%">
+      <stop offset="0%" stop-color="#8C3FFF"/>
+      <stop offset="100%" stop-color="#2800A9"/>
+    </linearGradient>
+    <linearGradient id="atoms-anzu-b" x1="166.342%" x2="23.633%" y1="-40.785%" y2="93.906%">
+      <stop offset="0%" stop-color="#00FBBC"/>
+      <stop offset="100%" stop-color="#1E69F2"/>
+    </linearGradient>
+    <filter id="atoms-anzu-c" width="142.9%" height="142.9%" x="-21.4%" y="-21.4%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.932"/>
+    </filter>
+    <linearGradient id="atoms-anzu-d" x1="137.102%" x2="20.485%" y1="71.436%" y2="13.848%">
+      <stop offset="0%" stop-color="#AAF9FF"/>
+      <stop offset="100%" stop-color="#00C3D1"/>
+    </linearGradient>
+    <filter id="atoms-anzu-e" width="144.4%" height="144.4%" x="-22.2%" y="-22.2%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5.865"/>
+    </filter>
+    <filter id="atoms-anzu-f" width="144.4%" height="144.4%" x="-22.2%" y="-22.2%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5.865"/>
+    </filter>
+    <filter id="atoms-anzu-g" width="142.9%" height="142.9%" x="-21.4%" y="-21.4%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.932"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(-88 -47)">
+    <ellipse cx="1011.097" cy="640.435" fill="url(#atoms-anzu-a)" rx="146.621" ry="146.62"/>
+    <path fill="url(#atoms-anzu-b)" d="M864.476518,260.983319 C872.380527,260.983319 879.241138,256.516031 882.671176,249.968615 C884.160834,247.125085 885.003436,243.889212 885.003436,240.456541 C885.003436,229.119914 875.813222,219.929763 864.476518,219.929763 C853.139814,219.929763 843.949599,229.119914 843.949599,240.456541 C843.949599,251.793167 853.139814,260.983319 864.476518,260.983319 Z" filter="url(#atoms-anzu-c)"/>
+    <ellipse cx="141.636" cy="100.581" fill="url(#atoms-anzu-d)" filter="url(#atoms-anzu-e)" opacity=".602" rx="39.588" ry="39.587" style="mix-blend-mode:overlay"/>
+    <ellipse cx="904.064" cy="100.581" fill="url(#atoms-anzu-d)" filter="url(#atoms-anzu-f)" rx="39.588" ry="39.587" style="mix-blend-mode:darken"/>
+    <path fill="url(#atoms-anzu-b)" d="M160.696449,585.892888 C168.600458,585.892888 175.461069,581.425601 178.891107,574.878185 C180.380766,572.034655 181.223368,568.798782 181.223368,565.366111 C181.223368,554.029484 172.033153,544.839333 160.696449,544.839333 C149.359745,544.839333 140.16953,554.029484 140.16953,565.366111 C140.16953,576.702737 149.359745,585.892888 160.696449,585.892888 Z" filter="url(#atoms-anzu-g)"/>
+  </g>
+</svg>
