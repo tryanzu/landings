@@ -181,6 +181,6 @@
 }
 
 
-.dropdown .dropbtn:focus + .dropdown-content {
+.dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
 	@apply block;
 }
