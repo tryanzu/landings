@@ -1,3 +1,186 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@responsive {
+	.bg-w600 {
+		background-size: 600px!important;
+		margin-top: -90px;
+		min-height: 600px;
+	}
+}
+
+.cover-anzu{
+	max-height: 722px;
+	padding: 30px 0px;
+	background-image: url('./images/cover.svg'), radial-gradient(circle farthest-corner at 79% 80%, #7a9bff, #3d5afe 68%);
+}
+
+.container-navbar{
+	@apply mx-auto w-4/5;	
+	height: 62px;
+}
+
+.navbar-left{
+	height: 62px;
+}
+
+.navbar-right{
+	height: 62px;
+}
+
+.anzu-logo{
+	@apply relative flex float-left py-5;
+	height: 62px;
+	width:81px;
+}
+
+.item-menu{
+	@apply text-white text-left inline-block p-5 font-sans font-normal text-sm
+}
+
+.btn-primary{
+	@apply  mt-2 bg-indigo-600 text-sm font-sans font-semibold text-white rounded;
+	padding: 10px;
+}
+
+.atom-container{
+	@apply relative justify-center my-auto mx-auto;
+}
+
+.hero-content{
+	width: 100%;
+	min-height: 600px;
+}
+
+.content{
+	@apply flex flex-col w-full content-center items-center justify-center my-auto mx-auto;	
+	min-height: 600px;	
+}
+
+.atom-anzu{
+	width: 200px;
+	height:53.5px;
+}
+
+.hero-copy{
+	@apply mx-auto flex flex-col items-center; 
+}
+
+.text-hero{
+	@apply font-bold font-semibold text-white font-sans mt-5 mb-2 mx-auto text-center; 
+	font-size: 26px;
+}
+
+.paragraph{
+	@apply text-xl text-gray-300 font-sans mx-auto text-center font-sans font-normal;
+	line-height: 28px;
+}
+
+.btn-land{
+	margin-top:10px;
+}
+.description{
+	@apply flex bg-scroll bg-no-repeat bg-right-top bg-auto;
+	background-image: url(./images/powerfulhd.png);
+	min-height: 400px;
+	margin-top: -57px;
+	background-size: 380px;
+}
+.power-tool{
+	@apply w-full self-center;
+}
+.column-left{
+	@apply object-left;
+	height: 282px;
+	width: 50%;
+	padding: 0 30px;
+	margin-top: 200px;
+}
+.heading-5{
+	margin: 10px 0;
+	font-size: 1.75rem;
+	@apply leading-tight font-semibold text-indigo-900;
+	font-family: Lato, sans-serif;
+}
+.paragraph3{
+	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left; 
+	margin-bottom: 10px;	
+	font-family: Lato, sans-serif;
+}
+.features{
+	@apply flex-col;
+	min-height: 500px;
+	padding: 60px 0;
+}
+.features-info1, .features-info2, .features-info3{
+	@apply justify-center;
+	padding: 0px 30px;
+}
+.heading-6{
+	@apply text-2xl text-indigo-900 font-semibold mt-5;
+	font-family: Lato, sans-serif;
+	margin-bottom: 10px;
+}
+.paragraph4{
+	@apply text-indigo-900 text-lg font-light leading-tight text-left; 
+	margin-bottom: 10px;	
+	font-family: Lato, sans-serif;
+}
+.footer{
+	@apply bg-blue-900;
+	min-height: 400px;
+	padding-top: 50px;
+}
+.footer-container{
+	@apply flex-col relative justify-center my-auto mx-auto w-4/5;
+	min-height: 400px;
+}
+.tryanzu{
+	@apply w-full;
+	min-height: 266px;
+	padding: 40px 0;
+}
+.foot-tryanzu{
+	@apply w-full;
+	min-height: 33.3333%;
+}
+.heading-7{
+	@apply  flex text-white font-thin text-center mx-auto justify-center;
+	font-family: Lato, sans-serif;
+	margin-bottom: 30px;
+}
+.columns{
+	@apply inline-flex w-full;
+	height: 66px;
+}
+.col-l,.col-r{
+	@apply flex w-1/2 justify-center;
+}
+.logos{
+	@apply mx-auto;
+	width: 40px;
+	height: 40px;
+}
+.bor{
+	@apply border-b border-solid border-gray-600;
+}
+.dropdown {
+	@apply relative;
+}
+
+.dropdown-content {
+	@apply bg-purple-600 z-50 absolute w-64 hidden;
+	top: 100%;
+	right: 0;
+}
+
+.dropdown-content a{
+	@apply flex;
+}
+
+
+.dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
+	@apply block;
+}
