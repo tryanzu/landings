@@ -36,13 +36,16 @@
 	width:81px;
 }
 
-.item-menu{
+.item-menu {
 	@apply text-white text-left inline-block p-5 font-sans font-normal text-sm
 }
 
 .btn-primary{
-	@apply  mt-2 bg-indigo-600 text-sm font-sans font-semibold text-white rounded;
-	padding: 10px;
+	@apply  p-2 bg-indigo-700 text-sm font-sans font-semibold text-white rounded;
+}
+
+.btn-primary:hover {
+	@apply  bg-indigo-900;
 }
 
 .atom-container{
@@ -102,12 +105,10 @@
 	margin: 10px 0;
 	font-size: 1.75rem;
 	@apply leading-tight font-semibold text-indigo-900;
-	font-family: Lato, sans-serif;
 }
 .paragraph3{
 	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left; 
 	margin-bottom: 10px;	
-	font-family: Lato, sans-serif;
 }
 .features{
 	@apply flex-col;
@@ -120,13 +121,11 @@
 }
 .heading-6{
 	@apply text-2xl text-indigo-900 font-semibold mt-5;
-	font-family: Lato, sans-serif;
 	margin-bottom: 10px;
 }
 .paragraph4{
 	@apply text-indigo-900 text-lg font-light leading-tight text-left; 
 	margin-bottom: 10px;	
-	font-family: Lato, sans-serif;
 }
 .footer{
 	@apply bg-blue-900;
@@ -148,7 +147,6 @@
 }
 .heading-7{
 	@apply  flex text-white font-thin text-center mx-auto justify-center;
-	font-family: Lato, sans-serif;
 	margin-bottom: 30px;
 }
 .columns{
@@ -171,13 +169,17 @@
 }
 
 .dropdown-content {
-	@apply bg-purple-600 z-50 absolute w-64 hidden;
+	@apply bg-white z-50 absolute w-64 rounded-sm shadow hidden;
 	top: 100%;
 	right: 0;
 }
 
-.dropdown-content a{
-	@apply flex;
+.dropdown-content a.item-menu {
+	@apply flex text-black;
+}
+
+.dropdown-content .btn-primary {
+	@apply w-5/6 block text-center mb-2 mx-auto;
 }
 
 
