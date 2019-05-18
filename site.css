@@ -9,6 +9,16 @@
 		margin-top: -90px;
 		min-height: 600px;
 	}
+	.h-cont{
+		width: 100%;
+		min-height: 600px;
+	}
+	.cnt-res{
+		min-height: 600px;
+	}
+	.feat-p{
+	padding: 60px 0;
+	}
 }
 
 .cover-anzu{
@@ -18,7 +28,7 @@
 }
 
 .container-navbar{
-	@apply mx-auto w-4/5;	
+	@apply mx-auto w-4/5;
 	height: 62px;
 }
 
@@ -54,12 +64,12 @@
 
 .hero-content{
 	width: 100%;
-	min-height: 600px;
+	min-height: 350px;
 }
 
 .content{
-	@apply flex flex-col w-full content-center items-center justify-center my-auto mx-auto;	
-	min-height: 600px;	
+	@apply flex flex-col w-full content-center items-center justify-center my-auto mx-auto;
+	min-height: 350px;
 }
 
 .atom-anzu{
@@ -68,11 +78,11 @@
 }
 
 .hero-copy{
-	@apply mx-auto flex flex-col items-center; 
+	@apply mx-auto flex flex-col items-center;
 }
 
 .text-hero{
-	@apply font-bold font-semibold text-white font-sans mt-5 mb-2 mx-auto text-center; 
+	@apply font-bold font-semibold text-white font-sans mt-5 mb-2 mx-auto text-center;
 	font-size: 26px;
 }
 
@@ -85,11 +95,10 @@
 	margin-top:10px;
 }
 .description{
-	@apply flex bg-scroll bg-no-repeat bg-right-top bg-auto;
+	@apply flex bg-scroll bg-no-repeat bg-right-top ;
 	background-image: url(./images/powerfulhd.png);
 	min-height: 400px;
-	margin-top: -57px;
-	background-size: 380px;
+	margin-top: -60px;
 }
 .power-tool{
 	@apply w-full self-center;
@@ -107,13 +116,12 @@
 	@apply leading-tight font-semibold text-indigo-900;
 }
 .paragraph3{
-	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left; 
-	margin-bottom: 10px;	
+	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left;
+	margin-bottom: 10px;
 }
 .features{
 	@apply flex-col;
 	min-height: 500px;
-	padding: 60px 0;
 }
 .features-info1, .features-info2, .features-info3{
 	@apply justify-center;
@@ -124,8 +132,8 @@
 	margin-bottom: 10px;
 }
 .paragraph4{
-	@apply text-indigo-900 text-lg font-light leading-tight text-left; 
-	margin-bottom: 10px;	
+	@apply text-indigo-900 text-lg font-light leading-tight text-left;
+	margin-bottom: 10px;
 }
 .footer{
 	@apply bg-blue-900;
