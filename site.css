@@ -9,6 +9,16 @@
 		margin-top: -90px;
 		min-height: 600px;
 	}
+	.h-cont{
+		width: 100%;
+		min-height: 600px;
+	}
+	.cnt-res{
+		min-height: 600px;
+	}
+	.feat-p{
+	padding: 60px 0;
+	}
 }
 
 .cover-anzu{
@@ -18,7 +28,7 @@
 }
 
 .container-navbar{
-	@apply mx-auto w-4/5;	
+	@apply mx-auto w-4/5;
 	height: 62px;
 }
 
@@ -36,13 +46,16 @@
 	width:81px;
 }
 
-.item-menu{
+.item-menu {
 	@apply text-white text-left inline-block p-5 font-sans font-normal text-sm
 }
 
 .btn-primary{
-	@apply  mt-2 bg-indigo-600 text-sm font-sans font-semibold text-white rounded;
-	padding: 10px;
+	@apply  p-2 bg-indigo-700 text-sm font-sans font-semibold text-white rounded;
+}
+
+.btn-primary:hover {
+	@apply  bg-indigo-900;
 }
 
 .atom-container{
@@ -51,12 +64,12 @@
 
 .hero-content{
 	width: 100%;
-	min-height: 600px;
+	min-height: 350px;
 }
 
 .content{
-	@apply flex flex-col w-full content-center items-center justify-center my-auto mx-auto;	
-	min-height: 600px;	
+	@apply flex flex-col w-full content-center items-center justify-center my-auto mx-auto;
+	min-height: 350px;
 }
 
 .atom-anzu{
@@ -65,11 +78,11 @@
 }
 
 .hero-copy{
-	@apply mx-auto flex flex-col items-center; 
+	@apply mx-auto flex flex-col items-center;
 }
 
 .text-hero{
-	@apply font-bold font-semibold text-white font-sans mt-5 mb-2 mx-auto text-center; 
+	@apply font-bold font-semibold text-white font-sans mt-5 mb-2 mx-auto text-center;
 	font-size: 26px;
 }
 
@@ -82,11 +95,10 @@
 	margin-top:10px;
 }
 .description{
-	@apply flex bg-scroll bg-no-repeat bg-right-top bg-auto;
+	@apply flex bg-scroll bg-no-repeat bg-right-top ;
 	background-image: url(./images/powerfulhd.png);
 	min-height: 400px;
-	margin-top: -57px;
-	background-size: 380px;
+	margin-top: -60px;
 }
 .power-tool{
 	@apply w-full self-center;
@@ -102,17 +114,14 @@
 	margin: 10px 0;
 	font-size: 1.75rem;
 	@apply leading-tight font-semibold text-indigo-900;
-	font-family: Lato, sans-serif;
 }
 .paragraph3{
-	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left; 
-	margin-bottom: 10px;	
-	font-family: Lato, sans-serif;
+	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left;
+	margin-bottom: 10px;
 }
 .features{
 	@apply flex-col;
 	min-height: 500px;
-	padding: 60px 0;
 }
 .features-info1, .features-info2, .features-info3{
 	@apply justify-center;
@@ -120,13 +129,11 @@
 }
 .heading-6{
 	@apply text-2xl text-indigo-900 font-semibold mt-5;
-	font-family: Lato, sans-serif;
 	margin-bottom: 10px;
 }
 .paragraph4{
-	@apply text-indigo-900 text-lg font-light leading-tight text-left; 
-	margin-bottom: 10px;	
-	font-family: Lato, sans-serif;
+	@apply text-indigo-900 text-lg font-light leading-tight text-left;
+	margin-bottom: 10px;
 }
 .footer{
 	@apply bg-blue-900;
@@ -148,7 +155,6 @@
 }
 .heading-7{
 	@apply  flex text-white font-thin text-center mx-auto justify-center;
-	font-family: Lato, sans-serif;
 	margin-bottom: 30px;
 }
 .columns{
@@ -171,13 +177,17 @@
 }
 
 .dropdown-content {
-	@apply bg-purple-600 z-50 absolute w-64 hidden;
+	@apply bg-white z-50 absolute w-64 rounded-sm shadow hidden;
 	top: 100%;
 	right: 0;
 }
 
-.dropdown-content a{
-	@apply flex;
+.dropdown-content a.item-menu {
+	@apply flex text-black;
+}
+
+.dropdown-content .btn-primary {
+	@apply w-5/6 block text-center mb-2 mx-auto;
 }
 
 
