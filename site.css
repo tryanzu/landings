@@ -9,14 +9,14 @@
 		margin-top: -90px;
 		min-height: 600px;
 	}
-	.h-cont{
-		width: 100%;
+	.hero-container{
+		@apply w-full;
 		min-height: 600px;
 	}
-	.cnt-res{
+	.content-responsive{
 		min-height: 600px;
 	}
-	.feat-p{
+	.features-p{
 	padding: 60px 0;
 	}
 }
@@ -50,8 +50,12 @@
 	@apply text-white text-left inline-block p-5 font-sans font-normal text-sm
 }
 
+.item-text {
+	@apply flex text-white text-center px-3 pt-3 pb-2 font-sans font-normal text-xs bg-blue-700;
+}
+
 .btn-primary{
-	@apply  p-2 bg-indigo-700 text-sm font-sans font-semibold text-white rounded;
+	@apply  p-2 bg-indigo-700 text-sm font-sans font-semibold text-white rounded-lg;
 }
 
 .btn-primary:hover {
@@ -182,6 +186,10 @@
 	right: 0;
 }
 
+.dropbtn:focus{
+	@apply outline-none;
+}
+
 .dropdown-content a.item-menu {
 	@apply flex text-black;
 }
@@ -193,4 +201,28 @@
 
 .dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
 	@apply block;
+}
+
+.form-question {
+	@apply text-white text-center inline-block font-sans font-normal text-sm p-2;;
+}
+
+.input-email {
+	@apply bg-gray-300 font-sans text-indigo-900 text-indigo-800 block float-left align-middle text-sm font-normal h-8 py-0 px-3 w-48 rounded-l-full shadow-md outline-none;
+}
+
+.input-email-responsive {
+	@apply flex bg-gray-300 font-sans text-indigo-900 float-left text-sm font-normal h-8 py-0 px-3 w-48 rounded-l-lg shadow-md outline-none;
+}
+
+.form-responsive{
+	@apply flex justify-center bg-blue-700 pb-2 px-2 border-0;
+}
+
+.submit-btn {
+	@apply bg-indigo-700 flex justify-center font-sans text-sm font-normal h-8 leading-loose relative w-20 text-white rounded-r-full shadow-md outline-none;
+}
+
+.submit-btn-responsive {
+	@apply bg-indigo-700  block font-sans text-sm font-normal h-8 leading-loose relative w-20 text-white rounded-r-lg shadow-md outline-none;
 }
