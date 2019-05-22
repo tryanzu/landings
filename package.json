@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "parcel build index.html && cp CNAME dist/CNAME && cd dist && surge",
-    "deploy-dev": "parcel build index.html && rm dist/CNAME && cd dist && surge",
-    "dev": "parcel index.html"
+    "deploy": "parcel build src/index.html && cp CNAME dist/CNAME && cd dist && surge",
+    "dev": "parcel src/index.html"
   },
   "keywords": [],
   "author": "Anzu's dev team",
