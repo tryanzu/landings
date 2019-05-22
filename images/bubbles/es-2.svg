@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Oval 4 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="166.341556%" y1="-40.7848396%" x2="23.6334749%" y2="93.9055901%" id="linearGradient-1">
+            <stop stop-color="#00FBBC" offset="0%"></stop>
+            <stop stop-color="#1E69F2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-21.4%" y="-21.4%" width="142.9%" height="142.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="2.93241695" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M27.5269187,47.9894644 C35.4309276,47.9894644 42.2915386,43.522177 45.7215767,36.9747607 C47.2112353,34.1312309 48.0538373,30.8953582 48.0538373,27.4626866 C48.0538373,16.1260602 38.8636228,6.93590869 27.5269187,6.93590869 C16.1902145,6.93590869 7,16.1260602 7,27.4626866 C7,38.799313 16.1902145,47.9894644 27.5269187,47.9894644 Z" id="Oval-4-Copy-2" fill="url(#linearGradient-1)" filter="url(#filter-2)"></path>
+    </g>
+</svg>

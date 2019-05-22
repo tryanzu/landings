@@ -4,20 +4,20 @@
 
 
 @responsive {
-	.bg-w600 {
-		background-size: 600px!important;
-		margin-top: -90px;
+	.hero-container{
+		@apply w-full;
 		min-height: 600px;
 	}
-	.h-cont{
-		width: 100%;
+	.content-responsive{
 		min-height: 600px;
 	}
-	.cnt-res{
-		min-height: 600px;
+	.features-p{
+		padding: 60px 0;
 	}
-	.feat-p{
-	padding: 60px 0;
+	.iframe-responsive{
+		@apply relative shadow-xl;
+		width: 400px;
+		height: 600px;
 	}
 }
 
@@ -50,8 +50,12 @@
 	@apply text-white text-left inline-block p-5 font-sans font-normal text-sm
 }
 
+.item-text {
+	@apply flex text-white text-center px-3 pt-3 pb-2 font-sans font-normal text-xs bg-blue-700;
+}
+
 .btn-primary{
-	@apply  p-2 bg-indigo-700 text-sm font-sans font-semibold text-white rounded;
+	@apply  p-2 bg-indigo-700 text-sm font-sans font-semibold text-white rounded-lg;
 }
 
 .btn-primary:hover {
@@ -94,22 +98,28 @@
 .btn-land{
 	margin-top:10px;
 }
+
 .description{
-	@apply flex bg-scroll bg-no-repeat bg-right-top ;
-	background-image: url(./images/powerfulhd.png);
-	min-height: 400px;
-	margin-top: -60px;
+	background:  
+		url(./images/bubbles/es-2.svg) no-repeat 90% 15% / 80px,
+		url(./images/bubbles/es-1.svg) no-repeat 110% 0% / 550px;
+	margin-top: -90px;
 }
+
+.iframe{
+	@apply flex mx-auto self-center mt-8 mb-5 justify-center shadow-xl;
+	width: 340px;
+	height: 450px;
+}
+
 .power-tool{
-	@apply w-full self-center;
+	@apply w-full;
 }
+
 .column-left{
-	@apply object-left;
-	height: 282px;
-	width: 50%;
-	padding: 0 30px;
-	margin-top: 200px;
+	@apply w-1/3 py-32 pr-10;
 }
+
 .heading-5{
 	margin: 10px 0;
 	font-size: 1.75rem;
@@ -117,12 +127,13 @@
 }
 .paragraph3{
 	@apply flex-col text-indigo-900 text-lg font-light leading-normal text-left;
-	margin-bottom: 10px;
+	margin-top: 10px;
+
 }
 .features{
-	@apply flex-col;
 	min-height: 500px;
 }
+
 .features-info1, .features-info2, .features-info3{
 	@apply justify-center;
 	padding: 0px 30px;
@@ -182,6 +193,10 @@
 	right: 0;
 }
 
+.dropbtn:focus{
+	@apply outline-none;
+}
+
 .dropdown-content a.item-menu {
 	@apply flex text-black;
 }
@@ -193,4 +208,28 @@
 
 .dropdown .dropbtn:focus + .dropdown-content , .dropdown .dropdown-content:hover{
 	@apply block;
+}
+
+.form-question {
+	@apply text-white text-center inline-block font-sans font-normal text-sm p-2;;
+}
+
+.input-email {
+	@apply bg-gray-300 font-sans text-indigo-900 text-indigo-800 block float-left align-middle text-sm font-normal h-8 py-0 px-3 w-48 rounded-l-full shadow-md outline-none;
+}
+
+.input-email-responsive {
+	@apply flex bg-gray-300 font-sans text-indigo-900 float-left text-sm font-normal h-8 py-0 px-3 w-48 rounded-l-lg shadow-md outline-none;
+}
+
+.form-responsive{
+	@apply flex justify-center bg-blue-700 pb-2 px-2 border-0;
+}
+
+.submit-btn {
+	@apply bg-indigo-700 flex justify-center font-sans text-sm font-normal h-8 leading-loose relative w-20 text-white rounded-r-full shadow-md outline-none;
+}
+
+.submit-btn-responsive {
+	@apply bg-indigo-700  block font-sans text-sm font-normal h-8 leading-loose relative w-20 text-white rounded-r-lg shadow-md outline-none;
 }

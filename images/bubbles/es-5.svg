@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="107px" height="107px" viewBox="0 0 107 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Oval 4 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="137.102066%" y1="71.4356072%" x2="20.4853347%" y2="13.8482069%" id="linearGradient-1">
+            <stop stop-color="#AAF9FF" offset="0%"></stop>
+            <stop stop-color="#00C3D1" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-22.2%" y="-22.2%" width="144.4%" height="144.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="5.86483391" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.602185236">
+        <ellipse id="Oval-4-Copy" fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" filter="url(#filter-2)" cx="53.5876289" cy="53.5873573" rx="39.5876289" ry="39.5873573"></ellipse>
+    </g>
+</svg>
