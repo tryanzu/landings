@@ -63,7 +63,7 @@
 }
 
 .atom-container{
-	@apply relative justify-center my-auto mx-auto;
+	@apply relative justify-center mx-auto;
 }
 
 .hero-content{
@@ -100,7 +100,7 @@
 }
 
 .description{
-	background:  
+	background:
 		url(./images/bubbles/es-2.svg) no-repeat 90% 15% / 80px,
 		url(./images/bubbles/es-1.svg) no-repeat 110% 0% / 550px;
 	margin-top: -90px;
