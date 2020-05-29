@@ -41,9 +41,7 @@
 }
 
 .anzu-logo{
-	@apply relative flex float-left py-5;
-	height: 62px;
-	width:81px;
+	width: 81px;
 }
 
 .item-menu {
